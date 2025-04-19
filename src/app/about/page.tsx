@@ -113,7 +113,7 @@ export default function About() {
 
         <motion.section
   id="qualification"
-  className="shadow h-auto md:h-[350px] w-full md:w-[90%] lg:w-[1000px] mx-auto bg-slate-100 rounded-xl mt-[30px] p-6 md:p-8"
+  className="shadow h-auto md:h-[350px] w-full md:w-[90%] lg:w-[1000px] mx-auto bg-slate-100 rounded-xl mt-[30px] p-3 m-9 "
   initial={{ opacity: 0, y: 50 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8, delay: 0.8 }}
@@ -124,18 +124,18 @@ export default function About() {
 
   <div className="flex flex-col md:flex-row gap-6 mt-[10px] pb-5 text-center">
     {/* Education Details */}
-    <div className="w-full md:w-[50%] ">
+    <div className="w-full md:w-[50%]">
       <h2 className="text-xl md:text-2xl text-orange-600 font-bold mb-4">Education</h2>
       <div className="space-y-4">
         <div>
-          <h3 className="text-lg md:text-xl text-[#10375C] font-semibold">Matric Science</h3>
+          <h3 className="text-lg md:text-xl text-[#10375C] font-semibold">Matric (Science)</h3>
           <p className="text-base md:text-lg text-[#10375C]">MAJ Eng Medium School</p>
-          <p className="text-base md:text-lg text-[#10375C]">2024</p>
+          <p className="text-base md:text-lg text-[#10375C]">2023-2024</p>
         </div>
         <div>
-          <h3 className="text-lg md:text-xl text-[#10375C] font-semibold">Intermediate Computer Science</h3>
+          <h3 className="text-lg md:text-xl text-[#10375C] font-semibold">Intermediate (Computer Science)</h3>
           <p className="text-base md:text-lg text-[#10375C]">Liaquat Govt. College</p>
-          <p className="text-base md:text-lg text-[#10375C]">Present</p>
+          <p className="text-base md:text-lg text-[#10375C]">December 2024-Present</p>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@ export default function About() {
           <p className="text-base md:text-lg text-[#10375C]">June 2022 - Present</p>
         </div>
         <div>
-          <h3 className="text-lg md:text-xl text-[#10375C] font-semibold">Student Governor Initiative</h3>
+          <h3 className="text-lg md:text-xl text-[#10375C] font-semibold">Certified CloudApplied Generative AI Engineer </h3>
           <p className="text-base md:text-lg text-[#10375C]">Governor House</p>
           <p className="text-base md:text-lg text-[#10375C]">May 2023 - Present</p>
         </div>
