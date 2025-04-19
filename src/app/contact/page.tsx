@@ -70,7 +70,7 @@ export default function Contact() {
               <h3 className="text-sm font-semibold text-orange-500 mb-2">Phone</h3>
               <div className="flex items-center justify-center">
                 <i className="fa-solid fa-phone text-[#10375C] text-lg mr-3"></i>
-                <p className="text-sm text-[#10375C]">0233 4434 4554</p>
+                <p className="text-sm text-[#10375C]">03112992642</p>
               </div>
             </div>
 
