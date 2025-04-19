@@ -124,7 +124,7 @@ export default function About() {
 
   <div className="flex flex-col md:flex-row gap-6 mt-[10px] pb-5 text-center">
     {/* Education Details */}
-    <div className="w-full md:w-[50%] md:mb-[10px]">
+    <div className="w-full md:w-[50%] ">
       <h2 className="text-xl md:text-2xl text-orange-600 font-bold mb-4">Education</h2>
       <div className="space-y-4">
         <div>
